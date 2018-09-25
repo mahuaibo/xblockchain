@@ -2,8 +2,11 @@
 
 * [Deployment](README.md)
   * [Bitcoin（BTC）](btc.md)
-  * Bitcoincash（BCH）
-  * Litecoin（LTC）
+    * Mainnet
+  * [Bitcoincash（BCH）](bitcoincashbch.md)
+    * Mainnet
+  * [Litecoin（LTC）](litecoinltc.md)
+    * Mainnet
   * [Omnilayer（USDT）](omnilayerusdt.md)
     * [Mainnet](omnilayerusdt/mainnet.md)
   * [Ethereum（ETH）](ethereumeth.md)
