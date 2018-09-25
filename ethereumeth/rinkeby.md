@@ -19,7 +19,9 @@ docker run -d --name ethereum-rinkeby-full \
 
 **浏览器**
 
-https://rinkeby.etherscan.io
+[https://rinkeby.etherscan.io](https://rinkeby.etherscan.io)
 
+**领币地址**
 
+[https://faucet.rinkeby.io](http://faucet.ropsten.be:3001/)
 

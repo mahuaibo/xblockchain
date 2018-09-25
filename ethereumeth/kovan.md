@@ -31,5 +31,11 @@ docker run -d --name ethereum-kovan-full \
     --ipc-apis "all"
 ```
 
+**浏览器**
 
+https://kovan.etherscan.io/
+
+**领币地址**
+
+https://gitter.im/kovan-network/faucet
 
