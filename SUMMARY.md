@@ -16,5 +16,6 @@
     * [Kovan](ethereumeth/kovan.md)
   * [Qtum（QTUM）](qtumqtum.md)
     * [Mainnet](qtumqtum/mainnet.md)
+    * Testnet
 * [Restful API](chapter1.md)
 
