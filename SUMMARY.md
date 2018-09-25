@@ -18,4 +18,5 @@
     * [Mainnet](qtumqtum/mainnet.md)
     * [Testnet](qtumqtum/testnet.md)
 * [Restful API](chapter1.md)
+* [Architecture](architecture.md)
 
