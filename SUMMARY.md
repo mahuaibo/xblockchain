@@ -2,7 +2,7 @@
 
 * [Deployment](README.md)
   * [Bitcoin（BTC）](btc.md)
-    * Mainnet
+    * [Mainnet](btc/mainnet.md)
   * [Bitcoincash（BCH）](bitcoincashbch.md)
     * Mainnet
   * [Litecoin（LTC）](litecoinltc.md)
