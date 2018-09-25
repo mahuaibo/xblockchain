@@ -1,19 +1,19 @@
 **Geth启动**
 
-geth --datadir /data/eth --nousb --syncmode fast --cache 2048 --rpc --rpcaddr 127.0.0.1 --rpcport 8545 --maxpeers 50
+geth --datadir /data/eth --nousb --testnet --syncmode fast --cache 2048 --rpc --rpcaddr 127.0.0.1 --rpcport 8545 --maxpeers 50
 
 **Docker启动**
 
 ```
 #! /bin/bash
-mkdir -p ~/ethereum-network/main/full
+mkdir -p ~/ethereum-network/ropsten/full
 
-docker run -d --name ethereum-main-full \
-    -v ~/ethereum-network/main/full/:/root \
-    -p 48547:8545 \
-    -p 40304:30303 \
+docker run -d --name ethereum-ropsten-full \
+    -v ~/ethereum-network/ropsten/full/:/root \
+    -p 28547:8545 \
+    -p 20304:30303 \
     ethereum/client-go:latest \
-    --syncmode fast \
+    --testnet --syncmode fast \
     --rpc --rpcaddr 0.0.0.0 --rpcapi "eth,net,web3" --rpccorsdomain "\*"
 ```
 
