@@ -4,7 +4,7 @@
   * [Bitcoin（BTC）](btc.md)
     * [Mainnet](btc/mainnet.md)
   * [Bitcoincash（BCH）](bitcoincashbch.md)
-    * Mainnet
+    * [Mainnet](bitcoincashbch/mainnet.md)
   * [Litecoin（LTC）](litecoinltc.md)
     * Mainnet
   * [Omnilayer（USDT）](omnilayerusdt.md)
