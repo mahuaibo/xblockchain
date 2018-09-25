@@ -1,20 +1,34 @@
 **Geth启动**
 
-geth --datadir /data/eth --nousb --syncmode fast --cache 2048 --rpc --rpcaddr 127.0.0.1 --rpcport 8545 --maxpeers 50
+```
+parity
+```
 
 **Docker启动**
 
 ```
 #! /bin/bash
-mkdir -p ~/ethereum-network/main/full
+mkdir -p ~/ethereum-network/kovan/full
 
-docker run -d --name ethereum-main-full \
-    -v ~/ethereum-network/main/full/:/root \
-    -p 48547:8545 \
-    -p 40304:30303 \
-    ethereum/client-go:latest \
-    --syncmode fast \
-    --rpc --rpcaddr 0.0.0.0 --rpcapi "eth,net,web3" --rpccorsdomain "\*"
+docker run -d --name ethereum-kovan-full \
+    -v ~/ethereum-network/kovan/full:/root/.local/share/io.parity.ethereum/ \
+    -p 38547:8545 \
+    -p 38548:8546 \
+    -p 30304:30303 \
+    -p 30304:30303/udp \
+    parity/parity:latest \
+    --chain kovan --mode active --port 30303 \
+    --base-path /root/.local/share/io.parity.ethereum/ \
+    --no-dapps --no-ui \
+    --jsonrpc-port 8545 \
+    --jsonrpc-interface "all" \
+    --jsonrpc-cors "all" \
+    --jsonrpc-hosts "all" \
+    --ws-port 8546 \
+    --ws-interface "all" \
+    --ws-origins "all" \
+    --ws-hosts "all" \
+    --ipc-apis "all"
 ```
 
 
