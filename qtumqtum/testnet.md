@@ -15,5 +15,11 @@ docker run -d --name qtum_testnet \
     hayeah/qtumportal:latest
 ```
 
+**浏览器**
 
+https://testnet.qtum.info
+
+**领币地址**
+
+http://testnet-faucet.qtum.info
 
