@@ -7,6 +7,7 @@
     * [Mainnet](bitcoincashbch/mainnet.md)
   * [Litecoin（LTC）](litecoinltc.md)
     * [Mainnet](litecoinltc/mainnet.md)
+    * [Testnet](litecoinltc/testnet.md)
   * [Omnilayer（USDT）](omnilayerusdt.md)
     * [Mainnet](omnilayerusdt/mainnet.md)
   * [Ethereum（ETH）](ethereumeth.md)
