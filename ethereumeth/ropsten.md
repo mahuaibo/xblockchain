@@ -17,5 +17,16 @@ docker run -d --name ethereum-ropsten-full \
     --rpc --rpcaddr 0.0.0.0 --rpcapi "eth,net,web3" --rpccorsdomain "\*"
 ```
 
+**浏览器**  
+https://ropsten.etherscan.io
+
+
+
+**领币地址**
+
+https://faucet.rinkeby.io
+
+
+
 
 
