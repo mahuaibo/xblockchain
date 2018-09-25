@@ -1,6 +1,6 @@
 **Qtumd启动**
 
-qtumd 
+qtumd  -server -rest -rpcbind=127.0.0.1 -rpcuser=qtum -rpcpassword=qtum -rpcport=3889
 
 **Docker启动**
 
