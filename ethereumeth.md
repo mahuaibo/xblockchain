@@ -22,3 +22,7 @@
 
 [https://geth.ethereum.org/downloads](https://geth.ethereum.org/downloads/)
 
+**测试网络**
+
+Rinkeby、Ropsten、Kovan
+
